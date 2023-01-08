@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 import time
 
-def test_guest_should_see_login_link(browser, user_language):
+def test_guest_should_see_button(browser, user_language):
     button_dict = {"ar": "أضف الى سلة التسوق", "ca": "Afegeix a la cistella",
                    "cs": "Vložit do košíku", "da": "Læg i kurv",
                    "de": "In Warenkorb legen", "en-gb": "Add to basket",
